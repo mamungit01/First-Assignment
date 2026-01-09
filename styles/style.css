@@ -174,3 +174,48 @@
     border-radius: 100%;
     margin-bottom: 16px;
 }
+#middel .middel-section {
+    width: 1360px;
+
+    padding-top: 320px;
+    display: flex;
+}
+#middel img {
+    margin: 120px 120px 120px 120px;
+    width: 600px;
+}
+#middel .contain {
+    padding-top: 221.5px;
+    width: 700px;
+    height: 397px;
+}
+.contain .top {
+    width: 700px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #30b868;
+    line-height: 20px;
+}
+.contain h1 {
+    height: 117px;
+    width: 700px;
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 58px;
+    color: #001931;
+}
+.contain p {
+    width: 700px;
+    height: 60px;
+    font-size: 16px;
+
+    color: #627382;
+    margin-bottom: 40px;
+    margin-top: 16px;
+}
+.contain h4 {
+    width: 700px;
+    /* height: 128px; */
+    padding: 8px;
+}
