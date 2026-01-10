@@ -74,7 +74,8 @@
     font-weight: 700;
 }
 .hero .background {
-    background-color: #30b868;
+    background-color: #f7f6f2;
+    color: #30b868;
     width: 208px;
     height: 35px;
     font-size: 16px;
@@ -124,12 +125,6 @@
     cursor: pointer;
 }
 
-/* middel */
-
-/* #about .info-card img{
-    background-color: black;
-} */
-
 #about .about-container {
     width: 1360px;
     height: 153px;
@@ -141,6 +136,11 @@
     font-weight: bold;
     font-size: 48px;
     padding-bottom: 20px;
+}
+.middel-section i {
+    background-color: #30b868;
+    border-radius: 100%;
+    color: #ffffff;
 }
 .about-container p {
     font-size: 16px;
@@ -253,6 +253,7 @@
     border: none;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
 }
 footer .foot {
     width: 1600px;
