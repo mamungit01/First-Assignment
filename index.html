@@ -4,19 +4,26 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>First Assignment</title>
-        <link rel="stylesheet" href="styles/style.css" />
-
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="stylesheet" href="styles/style.css" />
     </head>
     <body class="open-sans">
         <nav class="navber">
             <div>
-                <img src="images/logo-footer.png" alt="" />
+                <img src="images/logo-navbar.png" alt="" />
             </div>
             <ul>
                 <li><a href="">Features</a></li>
@@ -41,8 +48,13 @@
                     into long-term knowledge.
                 </p>
                 <div class="button">
-                    <button class="color">Start Building Your Vault</button>
-                    <button class="none">See How It Works</button>
+                    <button class="color">
+                        Start Building Your Vault
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                    <button class="none">
+                        <i class="fa-solid fa-circle-play"></i>See How It Works
+                    </button>
                 </div>
             </div>
         </div>
@@ -117,5 +129,31 @@
                 </div>
             </div>
         </section>
+
+        <section id="top-footer">
+            <div class="top-contain">
+                <h1>Ready to think more clearly?</h1>
+                <p>
+                    Join thousands of learners who are building their personal
+                    knowledge vaults. <br />Start free, no credit card required.
+                </p>
+                <button>Get Early Access</button>
+                <p>Free during early access • No credit card needed</p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="foot">
+                <img src="images/logo-footer.png" alt="" />
+                <p>© 2026 Personal Knowledge Vault. All rights reserved.</p>
+
+                <div class="icon">
+                    <h4>Social Links</h4>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
